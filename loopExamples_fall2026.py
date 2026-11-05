@@ -76,9 +76,9 @@ def main():
     ''' This function is called when this file is executed directly.
     It does not take in any parameters and it will return None '''
     # test loop through structures
-   # test_loop_through_it()
+    test_loop_through_it()
     # testing count vowels
-    test_count_vowels()
+   # test_count_vowels()
     # test nested loops
   #  test_nested_loops()
 
