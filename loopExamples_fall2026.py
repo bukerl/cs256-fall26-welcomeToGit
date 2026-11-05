@@ -15,7 +15,7 @@ def num_vowels(input_text):
     for character in input_text:
         # check if character should be counted
         # assumes y is not a vowel
-        if character in ['a','e','i','o','u']:
+        if character.lower() in ['a','e','i','o','u']:
             count += 1
     return count
 
@@ -48,7 +48,7 @@ def test_count_vowels():
     print("\n\nExecuting count vowel function... ")
     print("And, printing value(s) returned for first execution with 'Hello! My name is Maggie V.' :")
     print(num_vowels("Hello! My name is Maggie V."))
-    text = "How many vowels?"
+    text = "Oh my. How many vowels?"
     print("And, printing value(s) returned for second execution: ", text)
     print(num_vowels(text))
     print()
@@ -68,11 +68,11 @@ def main():
     ''' This function is called when this file is executed directly.
     It does not take in any parameters and it will return None '''
     # test loop through structures
-    test_loop_through_it()
+   # test_loop_through_it()
     # testing count vowels
     test_count_vowels()
     # test nested loops
-    test_nested_loops()
+  #  test_nested_loops()
 
 if __name__ == "__main__":
     # execute the main function
